@@ -1,0 +1,70 @@
+﻿@page
+@using CarApp1.Pages.Models;
+@model CarApp1.Pages.CarsModel
+@{
+    <h1>Cars</h1>
+
+    <form method="post" enctype="multipart/form-data">
+
+
+        <input type="text" name="Brand" placeholder="Brand" />
+        <input type="text" name="Model" placeholder="Model" />
+        <input type="text" name="Colour" placeholder="Colour" />
+        <input type="text" name="EngineType" placeholder="Engine Type" />
+        <input type="text" name="EngineSize" placeholder="Engine Size" />
+
+        <input type="file" name="CarImage" />
+
+        <button type="submit">Add</button>
+    </form>
+
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Brand</th>
+                <th>Model</th>
+                <th>Colour</th>
+                <th>Engine Type</th>
+                <th>Engine Size</th>
+                <th>Photo</th>
+                <th> </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (Car car in Model.Cars)
+            {
+                <tr>
+                    <td>
+                        @car.Id
+                    </td>
+                    <td>
+                        @car.Brand
+                    </td>
+                    <td>
+                        @car.Model
+                    </td>
+                    <td>
+                        @car.Colour
+                    </td>
+                    <td>
+                        @car.EngineType
+                    </td>
+                    <td>
+                        @car.EngineSize
+                    </td>
+                    <td>
+                        @if (!string.IsNullOrEmpty(car.ImagePath))
+                        {
+                            <img src="@Url.Content(car.ImagePath)" alt="Car Photo" style="max-width: 100px; max-height: 100px;" />
+                        }
+                    </td>
+                    <td>
+                        <a href="/Edit/@car.Id" class="btn btn-dark">Edit</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

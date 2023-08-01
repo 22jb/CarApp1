@@ -1,0 +1,53 @@
+﻿@page "{id:Guid}"
+@model CarApp1.Pages.EditModel
+@{
+}
+
+<h1>Edit Car Details</h1>
+
+<form method="post">
+    <div>
+        <label class="form-label">Id</label>
+        <input type="text" class="form-control" asp-for="EditCarModel.Id" readonly />
+    </div>
+
+    <div>
+        <label class="form-label">Brand</label>
+        <input type="text" class="form-control" asp-for="EditCarModel.Brand" />
+    </div>
+
+    <div>
+        <label class="form-label">Model</label>
+        <input type="text" class="form-control" asp-for="EditCarModel.Model" />
+    </div>
+
+    <div>
+        <label class="form-label">Colour</label>
+        <input type="text" class="form-control" asp-for="EditCarModel.Colour" />
+    </div>
+
+    <div>
+        <label class="form-label">Engine Type</label>
+        <input type="text" class="form-control" asp-for="EditCarModel.EngineType" />
+    </div>
+
+    <div>
+        <label class="form-label">Engine Size</label>
+        <input type="text" class="form-control" asp-for="EditCarModel.EngineSize" />
+    </div>
+
+    <div>
+        <label class="form-label">Photo</label>
+        <input type="file" class="form-control" asp-for="EditCarModel.ImagePath" />
+    </div>
+
+    <div class="mb-3 d-flex justify-content-between">
+        <button class="mb-3 btn btn-dark">
+            Confirm Edit
+        </button>
+        <button class="mb-3 btn btn-danger" asp-page-handler="Delete">
+            Delete Entry
+        </button>
+    </div>
+
+</form>
