@@ -5,7 +5,7 @@
 
 <h1>Edit Car Details</h1>
 
-<form method="post">
+<form method="post" enctype="multipart/form-data">
     <div>
         <label class="form-label">Id</label>
         <input type="text" class="form-control" asp-for="EditCarModel.Id" readonly />
@@ -38,7 +38,7 @@
 
     <div>
         <label class="form-label">Photo</label>
-        <input type="file" class="form-control" asp-for="EditCarModel.ImagePath" />
+        <input type="file" name="CarImage" class="form-control" asp-for="EditCarModel.ImagePath" />
     </div>
 
     <div class="mb-3 d-flex justify-content-between">

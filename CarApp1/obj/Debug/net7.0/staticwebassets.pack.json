@@ -245,6 +245,22 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "C:\\Users\\josep\\source\\repos\\CarApp1\\CarApp1\\wwwroot\\uploads\\fvmlosur.5ov_ford_white.jpg",
+      "PackagePath": "staticwebassets\\uploads\\fvmlosur.5ov_ford_white.jpg"
+    },
+    {
+      "Id": "C:\\Users\\josep\\source\\repos\\CarApp1\\CarApp1\\wwwroot\\uploads\\kqlads3e.3gh_ford_white.jpg",
+      "PackagePath": "staticwebassets\\uploads\\kqlads3e.3gh_ford_white.jpg"
+    },
+    {
+      "Id": "C:\\Users\\josep\\source\\repos\\CarApp1\\CarApp1\\wwwroot\\uploads\\owgwng2x.41q_ford_white.jpg",
+      "PackagePath": "staticwebassets\\uploads\\owgwng2x.41q_ford_white.jpg"
+    },
+    {
+      "Id": "C:\\Users\\josep\\source\\repos\\CarApp1\\CarApp1\\wwwroot\\uploads\\w01a1aay.fbx_ford_white.jpg",
+      "PackagePath": "staticwebassets\\uploads\\w01a1aay.fbx_ford_white.jpg"
+    },
+    {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.CarApp1.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },

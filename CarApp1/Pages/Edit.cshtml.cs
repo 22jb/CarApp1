@@ -58,8 +58,7 @@ namespace CarApp1.Pages
                     car_entry.Colour = EditCarModel.Colour;
                     car_entry.EngineType = EditCarModel.EngineType;
                     car_entry.EngineSize = EditCarModel.EngineSize;
-                    car_entry.ImagePath = EditCarModel.ImagePath;
-                    if (CarImage != null)
+                    if (CarImage != null && CarImage.Length > 0)
                     {
                         Console.WriteLine("True");
                         string uploadsFolder = Path.Combine(_webHostEnvironment.WebRootPath, "uploads");
@@ -72,6 +71,10 @@ namespace CarApp1.Pages
                         }
 
                         car_entry.ImagePath = "/uploads/" + uniqueFileName;
+                    }
+                    else
+                    {
+                        car_entry.ImagePath = EditCarModel.ImagePath;
                     }
                     
                     _context.SaveChanges();
