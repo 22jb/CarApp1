@@ -245,20 +245,28 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "C:\\Users\\josep\\source\\repos\\CarApp1\\CarApp1\\wwwroot\\uploads\\fvmlosur.5ov_ford_white.jpg",
-      "PackagePath": "staticwebassets\\uploads\\fvmlosur.5ov_ford_white.jpg"
+      "Id": "C:\\Users\\josep\\source\\repos\\CarApp1\\CarApp1\\wwwroot\\uploads\\b-x5.jpg",
+      "PackagePath": "staticwebassets\\uploads\\b-x5.jpg"
     },
     {
-      "Id": "C:\\Users\\josep\\source\\repos\\CarApp1\\CarApp1\\wwwroot\\uploads\\kqlads3e.3gh_ford_white.jpg",
-      "PackagePath": "staticwebassets\\uploads\\kqlads3e.3gh_ford_white.jpg"
+      "Id": "C:\\Users\\josep\\source\\repos\\CarApp1\\CarApp1\\wwwroot\\uploads\\c-corvette.jpg",
+      "PackagePath": "staticwebassets\\uploads\\c-corvette.jpg"
     },
     {
-      "Id": "C:\\Users\\josep\\source\\repos\\CarApp1\\CarApp1\\wwwroot\\uploads\\owgwng2x.41q_ford_white.jpg",
-      "PackagePath": "staticwebassets\\uploads\\owgwng2x.41q_ford_white.jpg"
+      "Id": "C:\\Users\\josep\\source\\repos\\CarApp1\\CarApp1\\wwwroot\\uploads\\f-mustang.jpg",
+      "PackagePath": "staticwebassets\\uploads\\f-mustang.jpg"
     },
     {
-      "Id": "C:\\Users\\josep\\source\\repos\\CarApp1\\CarApp1\\wwwroot\\uploads\\w01a1aay.fbx_ford_white.jpg",
-      "PackagePath": "staticwebassets\\uploads\\w01a1aay.fbx_ford_white.jpg"
+      "Id": "C:\\Users\\josep\\source\\repos\\CarApp1\\CarApp1\\wwwroot\\uploads\\h-civic.jpg",
+      "PackagePath": "staticwebassets\\uploads\\h-civic.jpg"
+    },
+    {
+      "Id": "C:\\Users\\josep\\source\\repos\\CarApp1\\CarApp1\\wwwroot\\uploads\\rk0eo3b5.vgu_b-x5.jpg",
+      "PackagePath": "staticwebassets\\uploads\\rk0eo3b5.vgu_b-x5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\josep\\source\\repos\\CarApp1\\CarApp1\\wwwroot\\uploads\\t-camry.jpg",
+      "PackagePath": "staticwebassets\\uploads\\t-camry.jpg"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.CarApp1.Microsoft.AspNetCore.StaticWebAssets.props",

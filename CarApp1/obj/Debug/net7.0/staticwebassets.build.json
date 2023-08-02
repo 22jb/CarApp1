@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "E8ziUGGIBdWGxoO6AoGBI6EOiLIp7mABKvmtxIq8oeY=",
+  "Hash": "CD3Xm8td7NFBdrTU+eWxjyY5KjsIH+CXIirTL4uxhMk=",
   "Source": "CarApp1",
   "BasePath": "_content/CarApp1",
   "Mode": "Default",
@@ -1071,12 +1071,12 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\josep\\source\\repos\\CarApp1\\CarApp1\\wwwroot\\uploads\\fvmlosur.5ov_ford_white.jpg",
+      "Identity": "C:\\Users\\josep\\source\\repos\\CarApp1\\CarApp1\\wwwroot\\uploads\\b-x5.jpg",
       "SourceId": "CarApp1",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\josep\\source\\repos\\CarApp1\\CarApp1\\wwwroot\\",
       "BasePath": "_content/CarApp1",
-      "RelativePath": "uploads/fvmlosur.5ov_ford_white.jpg",
+      "RelativePath": "uploads/b-x5.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1085,15 +1085,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\fvmlosur.5ov_ford_white.jpg"
+      "OriginalItemSpec": "wwwroot\\uploads\\b-x5.jpg"
     },
     {
-      "Identity": "C:\\Users\\josep\\source\\repos\\CarApp1\\CarApp1\\wwwroot\\uploads\\kqlads3e.3gh_ford_white.jpg",
+      "Identity": "C:\\Users\\josep\\source\\repos\\CarApp1\\CarApp1\\wwwroot\\uploads\\c-corvette.jpg",
       "SourceId": "CarApp1",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\josep\\source\\repos\\CarApp1\\CarApp1\\wwwroot\\",
       "BasePath": "_content/CarApp1",
-      "RelativePath": "uploads/kqlads3e.3gh_ford_white.jpg",
+      "RelativePath": "uploads/c-corvette.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1102,15 +1102,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\kqlads3e.3gh_ford_white.jpg"
+      "OriginalItemSpec": "wwwroot\\uploads\\c-corvette.jpg"
     },
     {
-      "Identity": "C:\\Users\\josep\\source\\repos\\CarApp1\\CarApp1\\wwwroot\\uploads\\owgwng2x.41q_ford_white.jpg",
+      "Identity": "C:\\Users\\josep\\source\\repos\\CarApp1\\CarApp1\\wwwroot\\uploads\\f-mustang.jpg",
       "SourceId": "CarApp1",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\josep\\source\\repos\\CarApp1\\CarApp1\\wwwroot\\",
       "BasePath": "_content/CarApp1",
-      "RelativePath": "uploads/owgwng2x.41q_ford_white.jpg",
+      "RelativePath": "uploads/f-mustang.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1119,15 +1119,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\owgwng2x.41q_ford_white.jpg"
+      "OriginalItemSpec": "wwwroot\\uploads\\f-mustang.jpg"
     },
     {
-      "Identity": "C:\\Users\\josep\\source\\repos\\CarApp1\\CarApp1\\wwwroot\\uploads\\w01a1aay.fbx_ford_white.jpg",
+      "Identity": "C:\\Users\\josep\\source\\repos\\CarApp1\\CarApp1\\wwwroot\\uploads\\h-civic.jpg",
       "SourceId": "CarApp1",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\josep\\source\\repos\\CarApp1\\CarApp1\\wwwroot\\",
       "BasePath": "_content/CarApp1",
-      "RelativePath": "uploads/w01a1aay.fbx_ford_white.jpg",
+      "RelativePath": "uploads/h-civic.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -1136,7 +1136,41 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\uploads\\w01a1aay.fbx_ford_white.jpg"
+      "OriginalItemSpec": "wwwroot\\uploads\\h-civic.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\josep\\source\\repos\\CarApp1\\CarApp1\\wwwroot\\uploads\\rk0eo3b5.vgu_b-x5.jpg",
+      "SourceId": "CarApp1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\josep\\source\\repos\\CarApp1\\CarApp1\\wwwroot\\",
+      "BasePath": "_content/CarApp1",
+      "RelativePath": "uploads/rk0eo3b5.vgu_b-x5.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\rk0eo3b5.vgu_b-x5.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\josep\\source\\repos\\CarApp1\\CarApp1\\wwwroot\\uploads\\t-camry.jpg",
+      "SourceId": "CarApp1",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\josep\\source\\repos\\CarApp1\\CarApp1\\wwwroot\\",
+      "BasePath": "_content/CarApp1",
+      "RelativePath": "uploads/t-camry.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\t-camry.jpg"
     }
   ]
 }

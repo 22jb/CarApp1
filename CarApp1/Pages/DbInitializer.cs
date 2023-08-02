@@ -1,19 +1,12 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using CarApp1.Pages.Models;
 
-namespace CarApp1.Pages.Models
+namespace CarApp1.Pages
 {
-    public class CarsDbContext : DbContext
+    public class DbInitializer
     {
-        public DbSet<Car> Cars { get; set; }
-
-        protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
+        public void SeedData(CarsDbContext context)
         {
-            //base.OnConfiguring(optionsBuilder);
-            optionsBuilder.UseInMemoryDatabase("CarsDb");
-        }
-        public void SeedData()
-        {
-            if (Cars.Any())
+            if (context.Cars.Any())
                 return;
             var cars = new List<Car>
             {
@@ -24,7 +17,7 @@ namespace CarApp1.Pages.Models
                     Colour = "Red",
                     EngineType = "Petrol",
                     EngineSize = "2.5L",
-                    ImagePath = "/uploads/t-camry.jpg" 
+                    ImagePath = "/uploads/t-camry.jpg"
                 },
                 new Car
                 {
@@ -33,7 +26,7 @@ namespace CarApp1.Pages.Models
                     Colour = "Blue",
                     EngineType = "Gasoline",
                     EngineSize = "1.8L",
-                    ImagePath = "/uploads/h-civic.jpg" 
+                    ImagePath = "/uploads/h-civic.jpg"
                 },
                 new Car
                 {
@@ -64,8 +57,8 @@ namespace CarApp1.Pages.Models
                 },
             };
 
-            Cars.AddRange(cars);
-            SaveChanges();
+            context.Cars.AddRange(cars);
+            context.SaveChanges();
         }
     }
 }

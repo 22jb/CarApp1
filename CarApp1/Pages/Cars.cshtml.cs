@@ -26,7 +26,13 @@ namespace CarApp1.Pages
 
         public void OnGet()
         {
+            
+            if (!_context.Cars.Any())
+            {
+                _context.SeedData();
+            }
             Cars = _context.Cars.ToList();
+
         }
 
         public IActionResult OnPost()
